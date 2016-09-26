@@ -48,7 +48,7 @@
         @"bottomLayoutGuide" : rootViewController.bottomLayoutGuide
     };
 
-    NSString *verticalFormat = @"V:[topLayoutGuide][carbonTabSwipe][bottomLayoutGuide]";
+    NSString *verticalFormat = @"V:[topLayoutGuide][carbonTabSwipe]-49-[bottomLayoutGuide]";
     [rootViewController.view
         addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:verticalFormat
                                                                options:0
